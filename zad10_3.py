@@ -1,8 +1,8 @@
-def bezpowt(sl):
-    if len(sl) == len(set(sl)):
-        return 1
+def bezpowt(sl): #Check duplicates in dictionary
+    if len(sl) == len(set(sl)): #Compare len of list and set(set removes duplicates)
+        return 1  #Return 1 if dictionary hasn't duplicates
     else:
-        return 0
+        return 0 #Return 0 if dictionary has duplicates
 
 sl1 = {
     'Color1': 'Black',
