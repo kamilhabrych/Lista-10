@@ -3,3 +3,12 @@ t2 = ('a', 'b', 'c', 'd', 'e')
 
 print(t1)
 print(t2)
+
+l = list(t1)
+l[0] = 0
+t1 = tuple(l)
+
+print()
+print(t1)
+print(t2)
+
