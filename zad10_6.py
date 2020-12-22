@@ -1,7 +1,10 @@
-d = {}
-with open('dictionary.txt','r',encoding='utf8') as fo:
-    for line in fo:
+dict1 = {}
+
+with open('dictionary.txt', 'r', encoding='UTF8') as f:
+    for line in f:
         (key, val) = line.rstrip("\n").split(':')
-        d[key] = val
-    fo.close()
-    print(d.keys(),d.values(),sep="\n")
+        dict1[key] = val
+
+    f.close()
+
+    print(dict1.keys(), dict1.values(), sep="\n")
