@@ -22,4 +22,4 @@ l1 = list(sl1.values())
 l2 = list(sl2.values())
 
 print(bezpowt(l1))
-print(bezpowt(l2))
+print(bezpowt(l2)) 

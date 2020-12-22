@@ -12,5 +12,5 @@ dict1 = {
     'samochód': 'car',
     'czerwony': 'red',
 }
-
+ 
 print(odwr(dict1))
