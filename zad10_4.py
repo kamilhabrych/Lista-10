@@ -3,8 +3,9 @@ def odwr(sl):
         reverse_dict1 = {value: key for (key, value) in dict1.items()}
         return reverse_dict1
     else:
-        return 0
-
+        error = print("Error! Repetition in directory!")
+        return error
+  
 dict1 = {
     'polski': 'angielski',
     'rower': 'bike',
