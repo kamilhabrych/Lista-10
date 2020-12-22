@@ -2,3 +2,4 @@ polski: angielski
 rower: bike
 samochód: car
 czerwony: red
+ 
