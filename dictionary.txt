@@ -1,4 +1,4 @@
-polski:angielski
-rower:bike
-samochód:car
-czerwony:red
+polski: angielski
+rower: bike
+samochód: car
+czerwony: red
